@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 100%;
 }
 
 #github-container {
@@ -10,4 +11,50 @@
 
 ul {
   list-style: none;
+  width: 300px;
+  margin: 0 auto 0 auto;
+}
+
+ul#user-list li {
+  background-color: #f0f0f0;
+  border: 1px solid #d4d4d4;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 10px;
+  width: 100%;
+}
+
+ul#user-list li:hover {
+  background-color: #cbfcf1;
+}
+
+
+ul#user-list li span.username {
+  position: relative;
+  bottom: 18px;
+  left: 10px;
+}
+
+ul#user-list img {
+  border: 1px solid #d4d4d4;
+  border-radius: 50%;
+}
+
+ul#user-list li span a {
+  float:right;
+  position: relative;
+  top: 14px;
+  right: 8px;
+  color: #083cc9;
+  text-decoration: none;
+}
+
+#repos-list li {
+  background-color: #f0f0f0;
+  border: 1px solid #d4d4d4;
+  padding: 4px;
+}
+#repos-list li a {
+  text-decoration: none;
+  color: #083cc9;
 }
